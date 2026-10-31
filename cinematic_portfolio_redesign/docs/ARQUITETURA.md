@@ -13,7 +13,7 @@ cinematic_portfolio_redesign/
 │   ├── public/
 │   │   ├── audio/
 │   │   │   └── soundtrack.mp3    # Trilha sonora original (Venice - Scandinavianz)
-│   │   └── images/               # Fotos e capturas de tela reais
+│   │   └── img/                  # Fotos e capturas de tela reais
 │   │       ├── renan.jpeg
 │   │       ├── renan_perfil.jfif
 │   │       ├── agenda.png
