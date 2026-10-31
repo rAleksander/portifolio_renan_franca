@@ -79,6 +79,14 @@ export function ProjectsSection() {
                   <img
                     src={project.image}
                     alt={project.title}
+                    onError={(e) => {
+                      const src = e.currentTarget.getAttribute('src') || '';
+                      if (src.startsWith('/img/')) {
+                        e.currentTarget.src = src.replace('/img/', './img/');
+                      } else if (src.startsWith('./img/')) {
+                        e.currentTarget.src = src.replace('./img/', '/images/');
+                      }
+                    }}
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"
                   />

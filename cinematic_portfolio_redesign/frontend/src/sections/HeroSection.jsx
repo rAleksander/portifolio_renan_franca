@@ -115,6 +115,14 @@ export function HeroSection() {
               <img
                 src={personal.avatar}
                 alt={personal.fullName}
+                onError={(e) => {
+                  const src = e.currentTarget.getAttribute('src') || '';
+                  if (src.startsWith('/img/')) {
+                    e.currentTarget.src = src.replace('/img/', './img/');
+                  } else if (src.startsWith('./img/')) {
+                    e.currentTarget.src = src.replace('./img/', '/images/');
+                  }
+                }}
                 className="w-full h-full object-cover rounded-2xl grayscale-[20%] contrast-[105%] group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
                 loading="eager"
               />
