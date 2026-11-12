@@ -64,9 +64,9 @@ export const portfolioData = {
       problem: "Prover uma experiência fluida de compra de automóveis com filtros dinâmicos, fichas técnicas detalhadas e CRM interno para captação de propostas e leads.",
       contribution: "Arquitetura e desenvolvimento full stack: backend em Python Django 6 REST Framework com banco relacional SQLite/PostgreSQL e frontend reativo em React 19, Vite, Tailwind CSS e Lucide Icons.",
       technologies: ["Python", "Django REST", "React", "Vite", "Tailwind CSS", "Axios"],
-      image: "/img/agenda.png",
+      image: "/img/raof_auto.png",
       demoUrl: null,
-      repoUrl: "https://github.com/rAleksander/raof-tech-site",
+      repoUrl: "https://github.com/rAleksander/Raof_Auto",
       featured: true,
       status: "Concluído & Documentado"
     },
@@ -94,7 +94,7 @@ export const portfolioData = {
       technologies: ["Python", "Power BI", "DAX", "Power Query", "SQL", "Pandas"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
       demoUrl: null,
-      repoUrl: "https://github.com/rAleksander/Youtube-Download-Drive",
+      repoUrl: "https://github.com/rAleksander",
       featured: false,
       status: "Concluído"
     },
